@@ -4,7 +4,6 @@ using System.Linq;
 
 namespace advent_of_code_2022.puzzle3
 {
-
     public class Advent3
     {
         private const string FILE_NAME = "puzzle3/input.txt";
@@ -51,7 +50,6 @@ namespace advent_of_code_2022.puzzle3
                 lineCounter++;
                 line = sr.ReadLine();
             }
-
             return finalSum;
         }
     }

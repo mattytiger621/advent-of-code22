@@ -2,9 +2,7 @@ using System;
 
 namespace advent_of_code_2022.puzzle3
 {
-
-
-
+    
     public class CompartmentItem
     {
         public char CharValue { get; set; }
@@ -13,7 +11,7 @@ namespace advent_of_code_2022.puzzle3
         {
             CharValue = letter;
         }
-
+        
         public int GetPriorityValue()
         {
             /*
@@ -27,7 +25,6 @@ namespace advent_of_code_2022.puzzle3
                 int index = 'Z' - CharValue;
                 return (52 - index);
             }
-
             return (26 - ('z' - CharValue));
         }
     }
