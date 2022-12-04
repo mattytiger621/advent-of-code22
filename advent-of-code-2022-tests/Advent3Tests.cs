@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using advent_of_code_2022.puzzle3;
 
-namespace TestProject2
+namespace advent_of_code_2022_tests
 {
     [TestFixture]
     public class Tests
